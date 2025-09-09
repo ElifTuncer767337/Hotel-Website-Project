@@ -1,6 +1,6 @@
 @media (max-width: 992px) {
 
-    /* Header ve Navbar */
+   
     .header {
         flex-direction: column;
         height: auto;
@@ -22,7 +22,7 @@
         text-align: center;
     }
 
-   /* Rooms/Cards */
+  
     .rooms-container {
         flex-direction: column;
         gap: 20px;
@@ -58,7 +58,7 @@
         margin: 10px 0;
     }
 
-    /* Teams */
+   
     .team-members {
         flex-direction: column;
         gap: 20px;
@@ -70,7 +70,6 @@
         height: auto;
     }
 
-    /* Contact */
     #contact {
         flex-direction: column;
         padding: 20px 10px;
@@ -93,7 +92,7 @@
         max-width: none;
     }
 
-    /* Footer */
+    
     .footer {
         position: relative;
         clear: both;
@@ -137,7 +136,7 @@
         font-size: 0.9rem;
     }
 
-    /* Card içindeki yazı ve başlıklar */
+  
     .card h3 {
         font-size: 1.1rem;
         margin-bottom: 15px;
@@ -151,7 +150,6 @@
         font-size: 0.8rem;
     }
 
-    /* Services kart içi yazı */
     #services h3 {
         font-size: 1.2rem;
     }
@@ -160,13 +158,13 @@
         font-size: 0.9rem;
     }
 
-    /* Services tek sütun mobilde */
+   
     #services > div {
         width: 90%;
     }
 }
 
-/* Çok küçük ekranlar */
+
 @media (max-width: 400px) {
     .header span {
         font-size: 1rem;
@@ -185,3 +183,4 @@
         padding: 10px;
     }
 }
+
